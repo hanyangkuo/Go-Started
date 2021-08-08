@@ -1,6 +1,6 @@
 ## Install Go in Windows
 - Download [go1.16.7.windows-amd64.zip](https://golang.org/dl/go1.16.7.windows-amd64.zip) from [here](https://golang.org/dl/) and unzip.
-![](./images/Pasted image 20210807152936.png)
+![Download](https://github.com/tw01472760/Go-Started/blob/main/Environment%20Setup/images/Pasted%20image%2020210807152936.png)
 
 - Use go command or setting environment variable on computer.
 `go env -w GOROOT="D:\DevTools\Go-1.16.7"`
@@ -10,7 +10,7 @@ or
 `setx GOPATH "D:\Projects\GO"`
 - Add `D:\DevTools\Go-1.16.7\bin` in windows path
 - Use `go version` to check version on computer
-![](./images/Pasted image 20210807153912.png)
+![go version](https://github.com/tw01472760/Go-Started/blob/main/Environment%20Setup/images/Pasted%20image%2020210807153912.png)
 
 
 ## Start A Project
@@ -33,7 +33,7 @@ func main(){
 ```
 - In command line, use `go build -o HelloGo.exe main.go` to build golang.
 - Enter `HelloGo.exe Young` to execute program.
-![](./images/Pasted image 20210807155046.png)
+![Execute](https://github.com/tw01472760/Go-Started/blob/main/Environment%20Setup/images/Pasted%20image%2020210807155046.png)
 
 ## Reference
 - [Golang website](https://golang.org/)
